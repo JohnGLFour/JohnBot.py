@@ -8,7 +8,7 @@ bot = commands.Bot(command_prefix="jb!")
 
 @bot.event
 async def on_ready():
-    await client.change_presence(game=discord.Game(name="Hey, Wassup!"))
+    await bot.change_presence(game=discord.Game(name="Hey, Wassup!"))
     print ("Ready when you are xd")
     print ("I am running on " + bot.user.name)
     print ("With the ID: " + bot.user.id)
